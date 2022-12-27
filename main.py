@@ -6,7 +6,7 @@ from time import sleep
 
 URL = "https://www.linkedin.com/jobs/search/?f_LF=f_AL&geoId=102257491&keywords=python%20developer&location=London%2C%20England%2C%20United%20Kingdom&redirect=false&position=1&pageNum=0"
 
-chrome_driver_path = "C:\Downloads\chromedriver_win32\chromedriver.exe"
+chrome_driver_path = "PATH TO FILE"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 driver.get(URL)
